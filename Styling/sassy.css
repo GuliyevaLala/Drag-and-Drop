@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+h3 {
+  font-size: 17px;
+  height: 35px;
+  width: 170px;
+  color: wheat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7e2d2d), to(#ce9696));
+  background: linear-gradient(#7e2d2d, #ce9696);
+}
+
+h3 i {
+  cursor: pointer;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  color: #1f170a;
+}
+
+h3:hover i {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+.circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.circles .color {
+  cursor: pointer;
+  width: 120px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.circles .color:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.dragZone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dragZone .zone {
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px dashed #bea0a0;
+}
+
+#red {
+  background: -webkit-gradient(linear, left top, right top, from(#e64a90), to(#ee3c18));
+  background: linear-gradient(to right, #e64a90, #ee3c18);
+}
+
+#orange {
+  background: -webkit-gradient(linear, left top, right top, from(#f12711), to(#f5af19));
+  background: linear-gradient(to right, #f12711, #f5af19);
+}
+
+#yellow {
+  background: -webkit-gradient(linear, left top, right top, from(#fffc00), to(#7de61cc2));
+  background: linear-gradient(to right, #fffc00, #7de61cc2);
+}
+
+#green {
+  background: -webkit-gradient(linear, left top, right top, from(#00f260), to(#0575e6));
+  background: linear-gradient(to right, #00f260, #0575e6);
+}
+
+#blue {
+  background: -webkit-gradient(linear, left top, right top, from(#56ccf2), to(#3913e4));
+  background: linear-gradient(to right, #56ccf2, #3913e4);
+}
+
+#indigo {
+  background: -webkit-gradient(linear, left top, right top, from(#4d3d94), to(#7b80d6));
+  background: linear-gradient(to right, #4d3d94, #7b80d6);
+}
+
+#violet {
+  background: -webkit-gradient(linear, left top, right top, from(#8369c9), to(#ce7096));
+  background: linear-gradient(to right, #8369c9, #ce7096);
+}
+/*# sourceMappingURL=sassy.css.map */
