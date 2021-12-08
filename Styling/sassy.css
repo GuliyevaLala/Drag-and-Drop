@@ -83,7 +83,7 @@ h3:hover i {
           transform: scale(1.5);
 }
 
-.dragZone {
+.dropZone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,7 +95,7 @@ h3:hover i {
           align-items: center;
 }
 
-.dragZone .zone {
+.dropZone .zone {
   cursor: pointer;
   width: 250px;
   height: 250px;
